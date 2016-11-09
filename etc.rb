@@ -1,0 +1,2 @@
+puts "#{(->() { [200, {}, ['test']] }).()}" # [200, {}, ['test']]                       # .() eq to .call()
+puts "#{eval('5+5')}" # 10                                           # eval can says about meta-programming
